@@ -1,4 +1,6 @@
 
+
+```python
 # Airbnb data analysis project
 
 ## Table of contents
@@ -26,28 +28,36 @@ The data preparation and analysis was conducted to provide answers to the below:
 
 The project was primarily built in Python.
 - The script was build in a Jupyter Notebook loaded from Anaconda Navigator.
-- Key Python packages used: pandas, numpy, matplotlib. 
+- Key Python packages used: pandas, numpy, matplotlib, seaborn. 
 - An additional dashboard was prepared in Tableau Online.
+- The blog post was written on Medium.
 
 ## Project Steps
 
-1. __Loading the data__
-* There were six different csv files to be loaded
-* I merged and concatenated these
+1. __Business understanding__
+* Based on the provided datasets, I compiled three questions to be answered by data analysis.
 
 2. __Data understanding__
-* I assessed general information such as the shape of the datasets and datatypes
-* I investigated missing data by columns and by rows
-* I evaluated potential relations between the extent of missing data and key features such as price or reviews to learn whether dropping certain missing data would cause serious biases in the analysis
+* Data was loaded.
+* General information was assessed such as the shape of the datasets and datatypes.
 
 3. __Data preparation__
-* I dropped feature for which more than 60% of the records were missing
-* I dropped rows which contained more than 40 missing values (out of cca. 95 originally)
+* Datasets became joint and concatenated.
+* Price data got cleaned.
+* I dropped feature for which more than 60% of the records were missing.
+* I dropped rows which contained more than 40 missing values (out of cca. 95 originally).
+* I changed the data type of ID features in order to avoid their inclusion in later numeric analysis.
 
 4. __Data analysis and visualization__
-* Correlations between numeric variables were identified by correlation matrix histograms
-* Bar charts and histograms were prepared to compare Boston and Seattle data
+* Scatter plots were utilized to identify patterns between missing data volume and target variables such as price or number of reviews.
+* Correlations between numeric variables were identified by a correlation matrix heatmap.
+* Bar charts and histograms were prepared to compare Boston and Seattle data.
+
+5. __Evaluation__
+* Findings from each parts of the analysis were summarized.
 
 ## Author
 
 Eszter Rékasi - [LinkedIn profile](https://www.linkedin.com/in/eszter-r%C3%A9kasi/)
+
+```
