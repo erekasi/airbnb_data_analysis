@@ -1,6 +1,5 @@
 
 
-```python
 # Airbnb data analysis project
 
 ## Table of contents
@@ -58,6 +57,6 @@ The project was primarily built in Python.
 
 ## Author
 
-Eszter Rékasi - [LinkedIn profile](https://www.linkedin.com/in/eszter-r%C3%A9kasi/)
+Eszter Rékasi - [LinkedIn profile](https://www.linkedin.com/in/eszter-rekasi/)
 
-```
+
